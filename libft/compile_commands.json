@@ -1,0 +1,862 @@
+[
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_isalpha.d",
+   "-c",
+   "srcs/ft_isalpha.c",
+   "-o",
+   ".build/objs/ft_isalpha.o"
+  ],
+  "file": "srcs/ft_isalpha.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_isascii.d",
+   "-c",
+   "srcs/ft_isascii.c",
+   "-o",
+   ".build/objs/ft_isascii.o"
+  ],
+  "file": "srcs/ft_isascii.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_isdigit.d",
+   "-c",
+   "srcs/ft_isdigit.c",
+   "-o",
+   ".build/objs/ft_isdigit.o"
+  ],
+  "file": "srcs/ft_isdigit.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_isprint.d",
+   "-c",
+   "srcs/ft_isprint.c",
+   "-o",
+   ".build/objs/ft_isprint.o"
+  ],
+  "file": "srcs/ft_isprint.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_toupper.d",
+   "-c",
+   "srcs/ft_toupper.c",
+   "-o",
+   ".build/objs/ft_toupper.o"
+  ],
+  "file": "srcs/ft_toupper.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_tolower.d",
+   "-c",
+   "srcs/ft_tolower.c",
+   "-o",
+   ".build/objs/ft_tolower.o"
+  ],
+  "file": "srcs/ft_tolower.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_isalnum.d",
+   "-c",
+   "srcs/ft_isalnum.c",
+   "-o",
+   ".build/objs/ft_isalnum.o"
+  ],
+  "file": "srcs/ft_isalnum.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_bzero.d",
+   "-c",
+   "srcs/ft_bzero.c",
+   "-o",
+   ".build/objs/ft_bzero.o"
+  ],
+  "file": "srcs/ft_bzero.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_memset.d",
+   "-c",
+   "srcs/ft_memset.c",
+   "-o",
+   ".build/objs/ft_memset.o"
+  ],
+  "file": "srcs/ft_memset.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_memcpy.d",
+   "-c",
+   "srcs/ft_memcpy.c",
+   "-o",
+   ".build/objs/ft_memcpy.o"
+  ],
+  "file": "srcs/ft_memcpy.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_memmove.d",
+   "-c",
+   "srcs/ft_memmove.c",
+   "-o",
+   ".build/objs/ft_memmove.o"
+  ],
+  "file": "srcs/ft_memmove.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_memcmp.d",
+   "-c",
+   "srcs/ft_memcmp.c",
+   "-o",
+   ".build/objs/ft_memcmp.o"
+  ],
+  "file": "srcs/ft_memcmp.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_memchr.d",
+   "-c",
+   "srcs/ft_memchr.c",
+   "-o",
+   ".build/objs/ft_memchr.o"
+  ],
+  "file": "srcs/ft_memchr.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strlen.d",
+   "-c",
+   "srcs/ft_strlen.c",
+   "-o",
+   ".build/objs/ft_strlen.o"
+  ],
+  "file": "srcs/ft_strlen.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strchr.d",
+   "-c",
+   "srcs/ft_strchr.c",
+   "-o",
+   ".build/objs/ft_strchr.o"
+  ],
+  "file": "srcs/ft_strchr.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strrchr.d",
+   "-c",
+   "srcs/ft_strrchr.c",
+   "-o",
+   ".build/objs/ft_strrchr.o"
+  ],
+  "file": "srcs/ft_strrchr.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strncmp.d",
+   "-c",
+   "srcs/ft_strncmp.c",
+   "-o",
+   ".build/objs/ft_strncmp.o"
+  ],
+  "file": "srcs/ft_strncmp.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strnstr.d",
+   "-c",
+   "srcs/ft_strnstr.c",
+   "-o",
+   ".build/objs/ft_strnstr.o"
+  ],
+  "file": "srcs/ft_strnstr.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strlcpy.d",
+   "-c",
+   "srcs/ft_strlcpy.c",
+   "-o",
+   ".build/objs/ft_strlcpy.o"
+  ],
+  "file": "srcs/ft_strlcpy.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strlcat.d",
+   "-c",
+   "srcs/ft_strlcat.c",
+   "-o",
+   ".build/objs/ft_strlcat.o"
+  ],
+  "file": "srcs/ft_strlcat.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_calloc.d",
+   "-c",
+   "srcs/ft_calloc.c",
+   "-o",
+   ".build/objs/ft_calloc.o"
+  ],
+  "file": "srcs/ft_calloc.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strdup.d",
+   "-c",
+   "srcs/ft_strdup.c",
+   "-o",
+   ".build/objs/ft_strdup.o"
+  ],
+  "file": "srcs/ft_strdup.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_atoi.d",
+   "-c",
+   "srcs/ft_atoi.c",
+   "-o",
+   ".build/objs/ft_atoi.o"
+  ],
+  "file": "srcs/ft_atoi.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_substr.d",
+   "-c",
+   "srcs/ft_substr.c",
+   "-o",
+   ".build/objs/ft_substr.o"
+  ],
+  "file": "srcs/ft_substr.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_putchar_fd.d",
+   "-c",
+   "srcs/ft_putchar_fd.c",
+   "-o",
+   ".build/objs/ft_putchar_fd.o"
+  ],
+  "file": "srcs/ft_putchar_fd.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_putstr_fd.d",
+   "-c",
+   "srcs/ft_putstr_fd.c",
+   "-o",
+   ".build/objs/ft_putstr_fd.o"
+  ],
+  "file": "srcs/ft_putstr_fd.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_putendl_fd.d",
+   "-c",
+   "srcs/ft_putendl_fd.c",
+   "-o",
+   ".build/objs/ft_putendl_fd.o"
+  ],
+  "file": "srcs/ft_putendl_fd.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_putnbr_fd.d",
+   "-c",
+   "srcs/ft_putnbr_fd.c",
+   "-o",
+   ".build/objs/ft_putnbr_fd.o"
+  ],
+  "file": "srcs/ft_putnbr_fd.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strmapi.d",
+   "-c",
+   "srcs/ft_strmapi.c",
+   "-o",
+   ".build/objs/ft_strmapi.o"
+  ],
+  "file": "srcs/ft_strmapi.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_striteri.d",
+   "-c",
+   "srcs/ft_striteri.c",
+   "-o",
+   ".build/objs/ft_striteri.o"
+  ],
+  "file": "srcs/ft_striteri.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_itoa.d",
+   "-c",
+   "srcs/ft_itoa.c",
+   "-o",
+   ".build/objs/ft_itoa.o"
+  ],
+  "file": "srcs/ft_itoa.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strjoin.d",
+   "-c",
+   "srcs/ft_strjoin.c",
+   "-o",
+   ".build/objs/ft_strjoin.o"
+  ],
+  "file": "srcs/ft_strjoin.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_strtrim.d",
+   "-c",
+   "srcs/ft_strtrim.c",
+   "-o",
+   ".build/objs/ft_strtrim.o"
+  ],
+  "file": "srcs/ft_strtrim.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_split.d",
+   "-c",
+   "srcs/ft_split.c",
+   "-o",
+   ".build/objs/ft_split.o"
+  ],
+  "file": "srcs/ft_split.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstnew.d",
+   "-c",
+   "srcs/ft_lstnew.c",
+   "-o",
+   ".build/objs/ft_lstnew.o"
+  ],
+  "file": "srcs/ft_lstnew.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstadd_front.d",
+   "-c",
+   "srcs/ft_lstadd_front.c",
+   "-o",
+   ".build/objs/ft_lstadd_front.o"
+  ],
+  "file": "srcs/ft_lstadd_front.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstsize.d",
+   "-c",
+   "srcs/ft_lstsize.c",
+   "-o",
+   ".build/objs/ft_lstsize.o"
+  ],
+  "file": "srcs/ft_lstsize.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstlast.d",
+   "-c",
+   "srcs/ft_lstlast.c",
+   "-o",
+   ".build/objs/ft_lstlast.o"
+  ],
+  "file": "srcs/ft_lstlast.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstadd_back.d",
+   "-c",
+   "srcs/ft_lstadd_back.c",
+   "-o",
+   ".build/objs/ft_lstadd_back.o"
+  ],
+  "file": "srcs/ft_lstadd_back.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstdelone.d",
+   "-c",
+   "srcs/ft_lstdelone.c",
+   "-o",
+   ".build/objs/ft_lstdelone.o"
+  ],
+  "file": "srcs/ft_lstdelone.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstclear.d",
+   "-c",
+   "srcs/ft_lstclear.c",
+   "-o",
+   ".build/objs/ft_lstclear.o"
+  ],
+  "file": "srcs/ft_lstclear.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstiter.d",
+   "-c",
+   "srcs/ft_lstiter.c",
+   "-o",
+   ".build/objs/ft_lstiter.o"
+  ],
+  "file": "srcs/ft_lstiter.c"
+ },
+ {
+  "directory": "/home/kporceil/Documents/Projects/push_swap/libft",
+  "arguments": [
+   "cc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-I",
+   "./includes",
+   "-MD",
+   "-MP",
+   "-MF",
+   ".build/deps/ft_lstmap.d",
+   "-c",
+   "srcs/ft_lstmap.c",
+   "-o",
+   ".build/objs/ft_lstmap.o"
+  ],
+  "file": "srcs/ft_lstmap.c"
+ }
+]
