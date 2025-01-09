@@ -11,24 +11,24 @@
 /* ************************************************************************** */
 
 #ifndef PARSING_H
-# define PARSING_H 
+# define PARSING_H
 
 # include <sys/types.h>
 
 # ifndef T_STACK
 #  define T_STACK
 
-typedef struct	s_stack
+typedef struct s_stack
 {
-	int	*stack_a;
-	int	*stack_b;
+	int		*stack_a;
+	int		*stack_b;
 	size_t	a_size;
 	size_t	b_size;
-}				t_stack;
+}			t_stack;
 
 # endif
 
-int	check_args(int argc, char **argv);
-int	parse_args(int argc, char **argv, t_stack **stacks);
+int			check_args(int argc, char **argv);
+int			parse_args(int argc, char **argv, t_stack **stacks);
 
 #endif

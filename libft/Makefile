@@ -50,7 +50,8 @@ BASENAME := ft_isalpha \
 		   ft_lstdelone \
 		   ft_lstclear \
 		   ft_lstiter \
-		   ft_lstmap
+		   ft_lstmap \
+		   ft_sqrt
 
 override SRCS := $(addprefix $(SRCDIR), $(addsuffix .c, $(BASENAME)))
 

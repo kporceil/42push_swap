@@ -1,34 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   memory.h                                           :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kporceil <kporceil@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/01/07 19:17:56 by kporceil          #+#    #+#             */
-/*   Updated: 2025/01/07 19:24:34 by kporceil         ###   ########lyon.fr   */
+/*   Created: 2025/01/08 18:31:55 by kporceil          #+#    #+#             */
+/*   Updated: 2025/01/08 18:36:58 by kporceil         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef MEMORY_H
-# define MEMORY_H
+#include "libft.h"
 
-# include <sys/types.h>
-
-# ifndef T_STACK
-#  define T_STACK
-
-typedef struct s_stack
+size_t	ft_sqrt(size_t value)
 {
-	int		*stack_a;
-	int		*stack_b;
-	size_t	a_size;
-	size_t	b_size;
-}			t_stack;
+	size_t	i;
 
-# endif
-
-t_stack		*init_stack(int size);
-int			free_stack(t_stack **stacks, int ret_value);
-
-#endif
+	i = 0;
+	while (i * i < value)
+		++i;
+	if (i * i > value)
+		return (i - 1);
+	return (i);
+}
