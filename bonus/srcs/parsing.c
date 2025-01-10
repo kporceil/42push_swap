@@ -12,7 +12,7 @@
 
 #include "memory.h"
 #include "parsing.h"
-#include "libft/includes/libft.h"
+#include "../../libft/includes/libft.h"
 
 int	check_args(int argc, char **argv)
 {

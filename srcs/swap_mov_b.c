@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/includes/libft.h"
+#include "../libft/includes/libft.h"
 #include "sort.h"
 
 void	rb(t_stack *stacks)

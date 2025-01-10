@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "indexer.h"
-#include "libft/includes/libft.h"
+#include "../libft/includes/libft.h"
 #include <stdlib.h>
 
 static int	*dup_tab(int *tab, size_t size)

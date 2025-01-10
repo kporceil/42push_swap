@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/includes/libft.h"
+#include "../libft/includes/libft.h"
 #include "indexer.h"
 #include "memory.h"
 #include "parsing.h"

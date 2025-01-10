@@ -6,18 +6,19 @@
 /*   By: kporceil <kporceil@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/09 13:31:40 by kporceil          #+#    #+#             */
-/*   Updated: 2025/01/09 19:05:36 by kporceil         ###   ########lyon.fr   */
+/*   Updated: 2025/01/10 14:01:00 by kporceil         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/includes/libft.h"
-#include "sort.h"
+#include "swap_mov.h"
 
 void	ra(t_stack *stacks)
 {
 	int		tmp;
 	size_t	i;
 
+	if (stacks->a_size < 2)
+		return ;
 	tmp = (stacks->stack_a)[0];
 	i = 1;
 	while (i < stacks->a_size)
@@ -26,7 +27,6 @@ void	ra(t_stack *stacks)
 		++i;
 	}
 	(stacks->stack_a)[stacks->a_size - 1] = tmp;
-	ft_putstr_fd("ra\n", 1);
 }
 
 void	rra(t_stack *stacks)
@@ -34,6 +34,8 @@ void	rra(t_stack *stacks)
 	ssize_t	i;
 	int		tmp;
 
+	if (stacks->a_size < 2)
+		return ;
 	i = stacks->a_size - 2;
 	tmp = (stacks->stack_a)[stacks->a_size - 1];
 	while (i >= 0)
@@ -42,7 +44,6 @@ void	rra(t_stack *stacks)
 		--i;
 	}
 	(stacks->stack_a)[0] = tmp;
-	ft_putstr_fd("rra\n", 1);
 }
 
 void	pa(t_stack *stacks)
@@ -50,6 +51,8 @@ void	pa(t_stack *stacks)
 	ssize_t	i;
 	size_t	j;
 
+	if (stacks->b_size < 1)
+		return ;
 	++(stacks->a_size);
 	i = stacks->a_size - 2;
 	while (i >= 0)
@@ -65,5 +68,16 @@ void	pa(t_stack *stacks)
 		++j;
 	}
 	--(stacks->b_size);
-	ft_putstr_fd("pa\n", 1);
+}
+
+void	sa(t_stack	*stacks)
+{
+	int	tmp;
+
+	if (stacks->a_size > 1)
+	{
+		tmp = stacks->stack_a[0];
+		stacks->stack_a[0] = stacks->stack_a[1];
+		stacks->stack_a[1] = tmp;
+	}
 }
