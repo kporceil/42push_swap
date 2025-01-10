@@ -15,6 +15,19 @@
 
 # include <sys/types.h>
 
-int	stack_indexer(int *stack, size_t stack_size);
+# ifndef T_STACK
+#  define T_STACK
+
+typedef struct s_stack
+{
+	int		*stack_a;
+	int		*stack_b;
+	size_t	a_size;
+	size_t	b_size;
+}			t_stack;
+
+# endif
+
+void	index_stack(t_stack *stacks);
 
 #endif

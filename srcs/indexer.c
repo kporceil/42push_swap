@@ -14,63 +14,28 @@
 #include "../libft/includes/libft.h"
 #include <stdlib.h>
 
-static int	*dup_tab(int *tab, size_t size)
-{
-	int	*dup;
-
-	dup = malloc(sizeof(int) * size);
-	if (!dup)
-		return (NULL);
-	ft_memmove(dup, tab, size * sizeof(int));
-	return (dup);
-}
-
-static void	sort_int_tab(int *tab, size_t size)
-{
-	size_t	i;
-
-	i = 1;
-	while (i < size)
-	{
-		if (tab[i] < tab[i - 1])
-		{
-			tab[i] ^= tab[i - 1];
-			tab[i - 1] ^= tab[i];
-			tab[i] ^= tab[i - 1];
-			i = 0;
-		}
-		++i;
-	}
-}
-
-static void	index_tab(int *sorted, int *to_index, size_t size)
+void	index_stack(t_stack *stacks)
 {
 	size_t	i;
 	size_t	j;
 
 	i = 0;
-	while (i < size)
+	while (i < stacks->a_size)
 	{
 		j = 0;
-		while (j < size)
+		while (j < stacks->a_size)
 		{
-			if (to_index[j] == sorted[i])
-				to_index[j] = (int)i;
+			if (stacks->stack_a[j] < stacks->stack_a[i])
+				++(stacks->stack_b[i]);
 			++j;
 		}
 		++i;
 	}
-}
-
-int	stack_indexer(int *stack, size_t stack_size)
-{
-	int	*dup_stack;
-
-	dup_stack = dup_tab(stack, stack_size);
-	if (!dup_stack)
-		return (-1);
-	sort_int_tab(dup_stack, stack_size);
-	index_tab(dup_stack, stack, stack_size);
-	free(dup_stack);
-	return (0);
+	i = 0;
+	while (i < stacks->a_size)
+	{
+		stacks->stack_a[i] = stacks->stack_b[i];
+		stacks->stack_b[i] = -1;
+		++i;
+	}
 }

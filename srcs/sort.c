@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 #include "sort.h"
+#include <signal.h>
 #include <unistd.h>
 
 static size_t	calc_chunk(size_t value)
@@ -58,10 +59,28 @@ static void	sort_b_to_a(t_stack *stacks)
 	}
 }
 
+static int	is_sorted(t_stack *stacks)
+{
+	size_t	i;
+
+	if (stacks->a_size < 2)
+		return (-1);
+	i = 1;
+	while (i < stacks->a_size)
+	{
+		if (stacks->stack_a[i - 1] > stacks->stack_a[i])
+			return (0);
+		++i;
+	}
+	return (-1);
+}
+
 void	sort_stack(t_stack *stacks)
 {
 	size_t	chunck_size;
 
+	if (is_sorted(stacks) != 0)
+		return ;
 	chunck_size = calc_chunk(stacks->a_size);
 	sort_a_to_b(stacks, chunck_size);
 	sort_b_to_a(stacks);

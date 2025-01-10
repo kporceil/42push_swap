@@ -12,6 +12,7 @@
 
 #include "memory.h"
 #include <stdlib.h>
+#include "../libft/includes/libft.h"
 
 t_stack	*init_stack(int size)
 {
@@ -27,7 +28,7 @@ t_stack	*init_stack(int size)
 		return (NULL);
 	}
 	stacks->a_size = 0;
-	stacks->stack_b = malloc(sizeof(int) * size);
+	stacks->stack_b = ft_calloc(sizeof(int), size);
 	if (!(stacks->stack_b))
 	{
 		free(stacks);

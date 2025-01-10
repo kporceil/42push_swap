@@ -26,8 +26,7 @@ int	push_swap(int argc, char **argv)
 		return (-2);
 	if (parse_args(argc, argv, &stacks) != 0)
 		return (-3);
-	if (stack_indexer(stacks->stack_a, stacks->a_size) != 0)
-		return (free_stack(&stacks, -4));
+	index_stack(stacks);
 	sort_stack(stacks);
 	return (free_stack(&stacks, 0));
 }

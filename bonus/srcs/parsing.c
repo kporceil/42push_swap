@@ -23,7 +23,7 @@ int	check_args(int argc, char **argv)
 	while (i < argc)
 	{
 		j = 0;
-		if (argv[i][j] == '-')
+		if (argv[i][j] == '-' && argv[i][j + 1])
 			++j;
 		while (argv[i][j])
 		{
@@ -31,6 +31,8 @@ int	check_args(int argc, char **argv)
 				return (-1);
 			++j;
 		}
+		if (!j)
+			return (-1);
 		++i;
 	}
 	return (0);
