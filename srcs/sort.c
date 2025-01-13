@@ -45,7 +45,12 @@ static void	sort_last_a(t_stack *stacks)
 	int	max;
 	int	i;
 
-	max = -1;
+	if (stacks->a_size == 2)
+		if (stacks->stack_a[0] > stacks->stack_a[1])
+			sa(stacks);
+	if (stacks->a_size == 2)
+		return ;
+	max = 0;
 	i = 0;
 	while (i < 3)
 	{
@@ -54,7 +59,12 @@ static void	sort_last_a(t_stack *stacks)
 		++i;
 	}
 	while (stacks->stack_a[2] != max)
-		ra(stacks);
+	{
+		if (stacks->stack_a[0] == max)
+			ra(stacks);
+		else
+			rra(stacks);
+	}
 	if (stacks->stack_a[0] > stacks->stack_a[1])
 		sa(stacks);
 }

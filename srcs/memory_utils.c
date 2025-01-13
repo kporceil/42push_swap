@@ -31,8 +31,8 @@ t_stack	*init_stack(int size)
 	stacks->stack_b = ft_calloc(sizeof(int), size);
 	if (!(stacks->stack_b))
 	{
-		free(stacks);
 		free(stacks->stack_a);
+		free(stacks);
 		return (NULL);
 	}
 	stacks->b_size = 0;

@@ -22,7 +22,7 @@ t_side	closer_highest_value(t_stack *stacks)
 			- 1))
 		++i;
 	j = stacks->b_size - 1;
-	while (j >= 0 && (stacks->stack_b)[j] != (int)(stacks->b_size - 1))
+	while ((stacks->stack_b)[j] != (int)(stacks->b_size - 1))
 		--j;
 	if (i < stacks->b_size - j - 1)
 		return (TOP);
