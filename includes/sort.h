@@ -39,6 +39,9 @@ typedef enum e_side
 
 # endif
 
+size_t		calc_chunk(size_t value);
+int			is_max(int value, int max);
+void		sa(t_stack	*stacks);
 void		pa(t_stack *stacks);
 void		rb(t_stack *stacks);
 void		pb(t_stack *stacks);

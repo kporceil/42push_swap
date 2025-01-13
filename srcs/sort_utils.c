@@ -28,3 +28,17 @@ t_side	closer_highest_value(t_stack *stacks)
 		return (TOP);
 	return (BOT);
 }
+
+int	is_max(int value, int max)
+{
+	if (value <= max - 1 && value >= max - 3)
+		return (0);
+	return (1);
+}
+
+size_t	calc_chunk(size_t value)
+{
+	if (value < 20)
+		return (1);
+	return (0.000000053 * value * value + 0.03 * value + 14.5);
+}

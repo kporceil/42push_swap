@@ -67,3 +67,16 @@ void	pa(t_stack *stacks)
 	--(stacks->b_size);
 	ft_putstr_fd("pa\n", 1);
 }
+
+void	sa(t_stack	*stacks)
+{
+	int	tmp;
+
+	if (stacks->a_size > 1)
+	{
+		tmp = stacks->stack_a[0];
+		stacks->stack_a[0] = stacks->stack_a[1];
+		stacks->stack_a[1] = tmp;
+		ft_putstr_fd("sa\n", 1);
+	}
+}

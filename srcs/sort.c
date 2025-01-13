@@ -14,27 +14,22 @@
 #include <signal.h>
 #include <unistd.h>
 
-static size_t	calc_chunk(size_t value)
-{
-	if (value < 20)
-		return (1);
-	return (0.000000053 * value * value + 0.03 * value + 14.5);
-}
-
 static void	sort_a_to_b(t_stack *stacks, size_t chunck_size)
 {
 	size_t	i;
+	int		max;
 
 	i = 0;
-	while (stacks->a_size > 0)
+	max = stacks->a_size;
+	while (stacks->a_size > 3)
 	{
-		if (stacks->stack_a[0] <= (int)i)
+		if (stacks->stack_a[0] <= (int)i && is_max(stacks->stack_a[0], max))
 		{
 			pb(stacks);
 			++i;
 		}
 		else if ((int)i < stacks->stack_a[0] && stacks->stack_a[0] <= (int)(i
-			+ chunck_size))
+			+ chunck_size) && is_max(stacks->stack_a[0], max))
 		{
 			pb(stacks);
 			rb(stacks);
@@ -43,6 +38,25 @@ static void	sort_a_to_b(t_stack *stacks, size_t chunck_size)
 		else
 			ra(stacks);
 	}
+}
+
+static void	sort_last_a(t_stack *stacks)
+{
+	int	max;
+	int	i;
+
+	max = -1;
+	i = 0;
+	while (i < 3)
+	{
+		if (stacks->stack_a[i] > max)
+			max = stacks->stack_a[i];
+		++i;
+	}
+	while (stacks->stack_a[2] != max)
+		ra(stacks);
+	if (stacks->stack_a[0] > stacks->stack_a[1])
+		sa(stacks);
 }
 
 static void	sort_b_to_a(t_stack *stacks)
@@ -83,5 +97,6 @@ void	sort_stack(t_stack *stacks)
 		return ;
 	chunck_size = calc_chunk(stacks->a_size);
 	sort_a_to_b(stacks, chunck_size);
+	sort_last_a(stacks);
 	sort_b_to_a(stacks);
 }
